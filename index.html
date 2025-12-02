@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DaRafa Acessórios | Em Breve</title>
+    <style>
+        body {
+            margin: 0;
+            height: 100vh;
+            background-color: #241000; /* Chocolate */
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            font-family: 'Times New Roman', serif;
+            color: #FDB90C; /* Mel */
+            text-align: center;
+        }
+        h1 {
+            font-size: 3rem;
+            margin-bottom: 10px;
+            letter-spacing: 2px;
+        }
+        p {
+            font-family: sans-serif;
+            font-size: 1rem;
+            color: #e0d0a0;
+            letter-spacing: 1px;
+            text-transform: uppercase;
+        }
+        .loader {
+            width: 50px;
+            height: 2px;
+            background: #FDB90C;
+            margin-top: 30px;
+            animation: load 2s infinite ease-in-out;
+        }
+        @keyframes load {
+            0% { width: 0; opacity: 0; }
+            50% { width: 50px; opacity: 1; }
+            100% { width: 0; opacity: 0; transform: translateX(50px); }
+        }
+    </style>
+</head>
+<body>
+    <h1>DaRafa</h1>
+    <p>Acessórios Artesanais</p>
+    <div class="loader"></div>
+    <p style="margin-top: 20px; font-size: 0.8rem; opacity: 0.7;">Site Oficial em Construção</p>
+</body>
+</html>
